@@ -251,6 +251,19 @@ main {
   opacity: 0.9;
 }
 
+.forum {
+  box-shadow: 0px 0px 24px -9px rgb(66, 68, 90);
+  padding: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8c5c4a;
+  justify-content: center;
+  color: white;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
 .space {
   padding: 100px;
   background-color: #f2f2f2;

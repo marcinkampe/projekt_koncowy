@@ -284,6 +284,20 @@ main {
   }
 }
 
+.forum {
+  box-shadow: 0px 0px 24px -9px rgba(66, 68, 90, 1);
+  padding: 100px;
+
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $article_bg;
+  justify-content: center;
+  color: white;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
 .space {
   padding: 100px;
   background-color: $main_bg;
