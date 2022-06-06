@@ -115,8 +115,8 @@ main {
   flex-wrap: wrap;
   background-color: #8c5c4a;
   justify-content: center;
-  color: #000000;
   color: white;
+  text-decoration: none;
   transition: transform 0.3s;
 }
 .preview:hover {
@@ -145,6 +145,38 @@ main {
   margin: 0px;
 }
 .preview__text {
+  opacity: 0.8;
+  padding: 10px;
+  margin: 30px;
+}
+
+.article {
+  width: 80vw;
+  box-shadow: 0px 0px 24px -9px rgb(66, 68, 90);
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #8c5c4a;
+  justify-content: center;
+  color: white;
+}
+.article__title {
+  padding: 20px;
+  margin: 20px;
+  font-size: xx-large;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.article__subtitle {
+  font-size: x-large;
+  opacity: 0.7;
+  padding: 0px;
+  margin: 0px;
+}
+.article__text {
+  font-size: large;
   opacity: 0.8;
   padding: 10px;
   margin: 30px;
