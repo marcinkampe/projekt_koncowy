@@ -59,25 +59,6 @@ body {
     }
   }
 
-  &__login {
-    margin: 10px;
-    display: flex;
-    flex-basis: 50%;
-    justify-content: flex-end;
-    text-decoration: none;
-    color: white;
-
-    a {
-      text-decoration: none;
-      padding: 10px;
-      color: white;
-    }
-
-    a:hover {
-      background-color: $header_hover;
-    }
-  }
-
   h1 {
     display: flex;
     flex-basis: 100%;
@@ -103,22 +84,6 @@ main {
   padding: 100px;
   color: $main_font;
   row-gap: 10px;
-}
-
-.space {
-  padding: 100px;
-  background-color: $main_bg;
-  flex-basis: 100%;
-  &--half {
-    padding: 50px;
-    background-color: $main_bg;
-    flex-basis: 100%;
-  }
-  &--qu {
-    padding: 25px;
-    background-color: $main_bg;
-    flex-basis: 100%;
-  }
 }
 
 .about {
@@ -155,7 +120,7 @@ main {
   }
 }
 
-.article {
+.preview {
   width: 400px;
 
   box-shadow: 0px 0px 24px -9px rgba(66, 68, 90, 1);
@@ -167,6 +132,12 @@ main {
   justify-content: center;
   color: $main_font;
   color: white;
+
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: scale(1.1, 1.1);
+  }
 
   img {
     display: flex;
@@ -221,10 +192,11 @@ main {
   }
 
   img {
-    margin: 10px;
     display: flex;
     flex-basis: 100%;
     justify-content: flex-start;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 
     width: 50px;
     height: 50px;
@@ -272,5 +244,21 @@ main {
     flex-basis: 100%;
     justify-content: center;
     opacity: 0.9;
+  }
+}
+
+.space {
+  padding: 100px;
+  background-color: $main_bg;
+  flex-basis: 100%;
+  &--half {
+    padding: 50px;
+    background-color: $main_bg;
+    flex-basis: 100%;
+  }
+  &--qu {
+    padding: 25px;
+    background-color: $main_bg;
+    flex-basis: 100%;
   }
 }
